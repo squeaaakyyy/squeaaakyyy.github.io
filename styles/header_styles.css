@@ -40,14 +40,14 @@ header {
 @media screen and (min-width: 375px) {
 
     header {
-        height: 60px;
+        height: 16vw;
     }
     
     .header__logo {
-        width: 44px;
-        height: 44px;
+        width: 11.73333333vw;
+        height: 11.73333333;
 
-        margin-left: 15px;
+        margin-left: 4vw;
     }
     .header__nav li:not(:nth-child(7), :last-child) {
         display: none;
@@ -57,17 +57,17 @@ header {
         height: 100%;
     }
     .header__burger-button {
-        margin: 23.13px 23.13px 23.13px 23.13px ;
-        width: 15.63px;
-        height: 13.75px;
+        margin: 6.168vw;
+        width: 4.168vw;
+        height: 3.6666666vw;
     }
     .header__nav li:last-child {
         height: 100%;
     }
     .header__search-button {
-        margin: 22.19px 22.19px 22.19px 22.19px ;
-        width: 15.63px;
-        height: 15.63px;
+        margin: 5.917333333vw;
+        width: 4.168vw;
+        height: 4.168vw;
     }
 
 }
@@ -75,21 +75,21 @@ header {
 @media screen and (min-width: 768px) {
 
     header {
-        height: 53px;
+        height: 2.76vw;
     }
     
     .header__logo {
-        width: 35px;
-        height: 35px;
+        width: 1.82vw;
+        height: 1.82vw;
 
-        margin-left: 15px;
+        margin-left: 0.78vw;
     }
     .header__nav li:not(:nth-child(7), :last-child) {
         display: inline-block;
 
-        padding: 0px 20px;
+        padding: 0px 1.04vw;
 
-        font-size: 14px;
+        font-size: 0.73vw;
         font-weight: 500;
         letter-spacing: 0%;
     } 
@@ -97,14 +97,13 @@ header {
     .header__nav li:nth-child(7) {
         display: none;
     }
-
     .header__nav li:last-child {
         height: 100%;
     }
     .header__search-button {
-        margin: 19.19px 19.19px 19.19px 19.19px ;
-        width: 15.63px;
-        height: 15.63px;
+        margin: 0.9994791666vw;
+        width: 0.8140625vw;
+        height: 0.8140625vw;
     }
 
 }
