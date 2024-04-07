@@ -1,5 +1,4 @@
 
-
 header {
     border: 1px solid var(--header-border-color);
 
@@ -7,7 +6,7 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 .header__nav {
     height: 100%;
@@ -65,6 +64,40 @@ header {
     }
 
 }
-@media screen and (min-width: 992px) {
+
+@media screen and (min-width: 768px) {
+
+    header {
+        height: 53px;
+    }
+    
+    .header__logo {
+        width: 35px;
+        height: 35px;
+
+        margin-left: 15px;
+    }
+    .header__nav li:not(:nth-child(7), :last-child) {
+        display: inline-block;
+
+        padding: 0px 20px;
+
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0%;
+    } 
+    
+    .header__nav li:nth-child(7) {
+        display: none;
+    }
+
+    .header__nav li:last-child {
+        height: 100%;
+    }
+    .header__search-button {
+        margin: 19.19px 19.19px 19.19px 19.19px ;
+        width: 15.63px;
+        height: 15.63px;
+    }
 
 }
