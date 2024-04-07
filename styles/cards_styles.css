@@ -114,17 +114,17 @@
     .cards__img {
         width: 17.71vw;
         height: 11.72vw;
-        margin-left: -0.05vw;
+        margin-left: -1px;
         z-index: 10;
         position: relative;
         border-right: 0.52vw solid var(--card-img-border-color);
 
     }
     .cards__card:not(:first-of-type) .cards__product {
-        margin-top: -0.05vw;
+        margin-top: -1px;
     }
     .cards__card:not(:first-of-type) .cards__img {
-        margin-top: -0.05vw;
+        margin-top: -1px;
     }
     .cards__img img {
         width: 17.19vw;
@@ -141,12 +141,15 @@
         font-weight: 700;
     }
     
+    .cards__card {
+        border: 0.05vw solid var( --header-border-color);
+    }
     .cards__product {
         padding: 1.56vw;
         width: 27.86vw;
         height: 11.72vw;
 
-        border: 0.05vw solid var( --header-border-color);
+       
     }
     .cards__product h3 {
         width: 100%;
