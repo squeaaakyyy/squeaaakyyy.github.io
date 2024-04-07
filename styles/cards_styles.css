@@ -1,5 +1,6 @@
 
 @media screen and (min-width: 375px) {
+    
     .cards h2 {
         font-size: 46px;
         font-weight: 700;
@@ -84,6 +85,110 @@
         /* width: 109px; */
 
         font-size: 10px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .cards h2 {
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 100%;
+    
+        width: 149px;
+        height: 46px;
+        
+        text-align: start;
+    
+        margin: 80px 0px 80px 100px;
+    }
+    
+    .cards__card {
+        width: 865px;
+        margin-left: 100px;
+
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .cards__img {
+        width: 340px;
+        height: 225px;
+        margin-left: -1px;
+        z-index: 10;
+        position: relative;
+        border-right: 10px solid var(--card-img-border-color);
+
+    }
+    .cards__card:not(:first-of-type) .cards__product {
+        margin-top: -1px;
+    }
+    .cards__card:not(:first-of-type) .cards__img {
+        margin-top: -1px;
+    }
+    .cards__img img {
+        width: 330px;
+        height: 225px;
+    }
+    .cards__img h5 {
+        position: absolute;
+        padding: 5px 10px;
+        background-color: var(--card-degrees-color);
+    
+        width: 54px;
+        height: 28px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .cards__product {
+        padding: 30px;
+        width: 535px;
+        height: 225px;
+
+        border: 1px solid var( --header-border-color);
+    }
+    .cards__product h3 {
+        width: 100%;
+        height: 30px;
+    
+        font-size: 24px;
+        font-weight: 700;
+        
+        margin-bottom: 5px;
+    }
+    .cards__product h4 {
+        width: 100%;
+        height: 18px;
+    
+        font-size: 16px;
+        font-weight: 500;
+        
+        margin-bottom: 45px;
+    }
+
+    .cards__product__description {
+        width: 100%;
+        height: 15px;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .cards__product__description.child1 {
+        margin-bottom: 15px;
+    }
+    .cards__product__description img {
+        width: 15px;
+        height: 15px;
+        padding: 1.5px;
+        margin-right: 10px;
+    }
+    .cards__product__description h5 {
+        height: 14px;
+        /* width: 109px; */
+
+        font-size: 12px;
         font-weight: 400;
     }
 }

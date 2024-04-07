@@ -23,6 +23,13 @@ header {
 }
 .header__nav ul a {
     display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s ease-out;
+}
+.header__nav ul a:hover {
+    color: var(--post-card-border-color);
+    transition: 0.3s ease-out;
 }
 .header__nav ul li:nth-child(7), li:last-child {
     border-left: 1px solid var(--header-border-color);
