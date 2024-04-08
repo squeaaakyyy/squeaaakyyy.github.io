@@ -1,0 +1,197 @@
+
+@media screen and (min-width: 375px) {
+    
+    .cards h2 {
+        font-size: 12.266666666vw;
+        font-weight: 700;
+        line-height: 100%;
+    
+        width: 39.733333vw;
+        height: 12.266666666vw;
+        
+        text-align: start;
+    
+        margin: 32.266666vw 0px 21.3333333vw 4.5333333vw;
+    }
+    
+    .cards__card {
+        width: 90.6666666vw;
+        margin-left: 4.5333333vw;
+    }
+    .cards__img {
+        height: 50.6666666vw;
+        width: 90.6666666vw;
+        position: relative;
+        border-right: 2.6666666vw solid var(--card-img-border-color);
+    }
+    .cards__img img {
+        width: 88vw;
+        height: 50.6666666vw;
+    }
+    .cards__img h5 {
+        position: absolute;
+        padding: 1.3333333vw 2.6666666vw;
+        background-color: var(--card-degrees-color);
+    
+        width: 14.4vw;
+        height: 7.4666666vw;
+        font-size: 4.2666666vw;
+        font-weight: 700;
+    }
+    
+    .cards__product {
+        padding: 5.3333333vw;
+        width: 90.6666666vw;
+        height: 44vw;
+    }
+    .cards__product h3 {
+        width: 80vw;
+        height: 6.4vw;
+    
+        font-size: 4.8vw;
+        font-weight: 700;
+        
+        margin-bottom: 4.8vw;
+    }
+    .cards__product h4 {
+        width: 80vw;
+        height: 4.80vw;
+    
+        font-size: 4.27vw;
+        font-weight: 500;
+        
+        margin-bottom: 8vw;
+    }
+
+    .cards__product__description {
+        width: 80vw;
+        height: 3.2vw;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .cards__product__description.child1 {
+        margin-bottom: 2.93vw;
+    }
+    .cards__product__description img {
+        width: 3.20vw;
+        height: 3.20vw;
+        padding: 0;
+        margin-right: 2.67vw;
+    }
+    .cards__product__description h5 {
+        height: 11px;
+        /* width: 109px; */
+
+        font-size: 2.67vw;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .cards h2 {
+        font-size: 2.40vw;
+        font-weight: 700;
+        line-height: 100%;
+    
+        width: 7.76vw;
+        height: 2.40vw;
+        
+        text-align: start;
+    
+        margin: 4.17vw 0px 4.17vw 5.21vw;
+    }
+    
+    .cards__card {
+        width: 45.05vw;
+        margin-left: 100px;
+
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .cards__img {
+        width: 17.71vw;
+        height: 11.72vw;
+        margin-left: -1px;
+        z-index: 10;
+        position: relative;
+        border-right: 0.52vw solid var(--card-img-border-color);
+
+    }
+    .cards__card:not(:first-of-type) .cards__product {
+        margin-top: -1px;
+    }
+    .cards__card:not(:first-of-type) .cards__img {
+        margin-top: -1px;
+    }
+    .cards__img img {
+        width: 17.19vw;
+        height: 11.72vw;
+    }
+    .cards__img h5 {
+        position: absolute;
+        padding: 0.26vw 0.52vw;
+        background-color: var(--card-degrees-color);
+    
+        width: 2.81vw;
+        height: 1.46vw;
+        font-size: 0.83vw;
+        font-weight: 700;
+    }
+    
+    .cards__card {
+        border: 0.05vw solid var( --header-border-color);
+    }
+    .cards__product {
+        padding: 1.56vw;
+        width: 27.86vw;
+        height: 11.72vw;
+
+       
+    }
+    .cards__product h3 {
+        width: 100%;
+        height: 1.56vw;
+    
+        font-size: 1.25vw;
+        font-weight: 700;
+        
+        margin-bottom: 0.26vw;
+    }
+    .cards__product h4 {
+        width: 100%;
+        height: 0.94vw;
+    
+        font-size: 0.83vw;
+        font-weight: 500;
+        
+        margin-bottom: 2.34vw;
+    }
+
+    .cards__product__description {
+        width: 100%;
+        height: 0.78vw;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .cards__product__description.child1 {
+        margin-bottom: 0.78vw;
+    }
+    .cards__product__description img {
+        width: 0.78vw;
+        height: 0.78vw;
+        padding: 0;
+        margin-right: 0.52vw;
+    }
+    .cards__product__description h5 {
+        height: 14px;
+        /* width: 109px; */
+
+        font-size: 0.63vw;
+        font-weight: 400;
+    }
+}

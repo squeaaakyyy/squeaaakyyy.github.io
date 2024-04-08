@@ -1,0 +1,109 @@
+
+header {
+    border: 1px solid var(--header-border-color);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* font-weight: 500; */
+}
+.header__nav {
+    height: 100%;
+}
+.header__nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.header__nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+.header__nav ul a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s ease-out;
+}
+.header__nav ul a:hover {
+    color: var(--post-card-border-color);
+    transition: 0.3s ease-out;
+}
+.header__nav ul li:nth-child(7), li:last-child {
+    border-left: 1px solid var(--header-border-color);
+}
+
+
+
+@media screen and (min-width: 375px) {
+
+    header {
+        height: 16vw;
+    }
+    
+    .header__logo {
+        width: 11.73333333vw;
+        height: 11.73333333;
+
+        margin-left: 4vw;
+    }
+    .header__nav li:not(:nth-child(7), :last-child) {
+        display: none;
+    } 
+    
+    .header__nav li:nth-child(7) {
+        height: 100%;
+    }
+    .header__burger-button {
+        margin: 6.168vw;
+        width: 4.168vw;
+        height: 3.6666666vw;
+    }
+    .header__nav li:last-child {
+        height: 100%;
+    }
+    .header__search-button {
+        margin: 5.917333333vw;
+        width: 4.168vw;
+        height: 4.168vw;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    header {
+        height: 2.76vw;
+    }
+    
+    .header__logo {
+        width: 1.82vw;
+        height: 1.82vw;
+
+        margin-left: 0.78vw;
+    }
+    .header__nav li:not(:nth-child(7), :last-child) {
+        display: inline-block;
+
+        padding: 0px 1.04vw;
+
+        font-size: 0.73vw;
+        font-weight: 500;
+        letter-spacing: 0%;
+    } 
+    
+    .header__nav li:nth-child(7) {
+        display: none;
+    }
+    .header__nav li:last-child {
+        height: 100%;
+    }
+    .header__search-button {
+        margin: 0.9994791666vw;
+        width: 0.8140625vw;
+        height: 0.8140625vw;
+    }
+
+}
